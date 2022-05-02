@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "MoneyMaker",
+        "image": "https://github.com/jwputah/MoneyMaker/raw/main/public/images/screenshot.png",
+        "github": "https://github.com/jwputah/MoneyMaker",
+        "deploy": "https://mighty-wave-59762.herokuapp.com/",
+        "tools": "express, mongoose, morgan, compression, service-worker, javascript"
+    },
+    {
+        "id": 2,
+        "name": "SQL-Employee-Tracker",
+        "image": "https://github.com/jwputah/SQL-Emp-Tracker/raw/main/assets/sqlvideo.gif",
+        "github": "https://github.com/jwputah/SQL-Emp-Tracker",
+        "deploy": "https://github.com/jwputah/SQL-Emp-Tracker",
+        "tools": "SQL, inquirer, console-table, javascript"
+    },
+    {
+        "id": 3,
+        "name": "Team-Profile-Generator",
+        "image": "https://github.com/jwputah/Team-Profile-Generator/raw/main/src/images/samplehtml.png",
+        "github": "https://github.com/jwputah/Team-Profile-Generator",
+        "deploy": "https://github.com/jwputah/Team-Profile-Generator/raw/main/src/images/walkthrough.gif",
+        "tools": "node.js, inquirer, jest, javascript "
+    },
+    {
+        "id": 4,
+        "name": "2Doozies (collaborator)",
+        "image": "https://github.com/tyarchy/2Doozies/raw/main/public/images/login-image.jpeg",
+        "github": "https://github.com/tyarchy/2Doozies",
+        "deploy": "https://twodoozies-app.herokuapp.com/",
+        "tools": "express, session, handlebars, sequelize, bcrypt, node-schedule, dotenv, javascript, css"
+    },
+    {
+        "id": 5,
+        "name": "Dad-A-Base (collaborator)",
+        "image": "https://user-images.githubusercontent.com/94918280/151908190-5711a36f-d5e9-4128-85e7-bc2f38b43897.PNG",
+        "github": "https://github.com/cjthe3/Dad-A-Base",
+        "deploy": "https://cjthe3.github.io/Dad-A-Base/",
+        "tools": "bulma, css, html, javascript,"
+    },
+    {
+        "id": 6,
+        "name": "wacky-work-scheduler",
+        "image": "https://user-images.githubusercontent.com/94497268/150441971-0f800efd-a9a8-4c9b-8705-f6fa46b6ffad.png",
+        "github": "https://github.com/jwputah/wacky-work-scheduler",
+        "deploy": "https://jwputah.github.io/wacky-work-scheduler/",
+        "tools": "javascript, html, css,"
+    }
+]

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../../assets/css/contact.css';
 
 // Here we import a helper function that will check if the email is valid
 import { checkPassword, validateEmail } from '../../utils/helpers';

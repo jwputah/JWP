@@ -3,7 +3,6 @@ import React from 'react';
 function Footer() {
     return (
         <section className="my-5" >
-            <h1 id="contact">Joshua W Pace</h1>
             <div className="my-2">
                 <li>
                 <a href="https://github.com/jwputah"><img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="Github" className="icon"/></a>
