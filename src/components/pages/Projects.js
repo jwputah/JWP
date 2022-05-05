@@ -6,7 +6,7 @@ import ProjectCards from '../../components/cards/index';
 const projectBg = require("../../../src/assets/images/projectbg.jpg");
 const divStyle = {
     width: '100%',
-    height: '2000px',
+    height: '2800px',
     backgroundImage: `url(${projectBg})`,
     backgroundSize: 'cover' 
 };

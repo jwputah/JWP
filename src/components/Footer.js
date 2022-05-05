@@ -19,7 +19,8 @@ function Footer() {
                     <div className="col">
                         <h1 style={{
                         color: "rgba(35,55,118,255)",
-                        textAlign: "center"
+                        textAlign: "center",
+                        textDecoration: "bold"
                         }}>Joshua W Pace</h1>
                     </div>
 

@@ -7,9 +7,10 @@ import { checkPassword, validateEmail } from '../../utils/helpers';
 const contactBg = require("../../../src/assets/airplane.gif");
 const divStyle = {
     width: '100%',
-    height: '800px',
+    height: '1000px',
     backgroundImage: `url(${contactBg})`,
-    backgroundSize: 'cover' 
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover'
 };
 
 function Form() {
@@ -64,8 +65,8 @@ function Form() {
     return (
         <div style={divStyle}>
             <div className='Contact'>
-                <p>Hello {userName}</p>
                 <form className="form">
+                    <p className="text">Hello {userName}. Please fill out form and submit. Thank You!</p>
                     <input
                         value={email}
                         name="email"
@@ -87,7 +88,9 @@ function Form() {
                         type="password"
                         placeholder="Password"
                     />
-                    <button type="button" onClick={handleFormSubmit}>Submit</button>
+                    <div className='button'>
+                        <button type="button" onClick={handleFormSubmit}>Submit</button>
+                    </div>
                 </form>
                 {errorMessage && (
                     <div>
