@@ -1,25 +1,33 @@
 import React from 'react';
 
-const resumeBg = require("../../../src/assets/images/resumebg.jpg");
+const resumeBg = require("../../../src/assets/images/resumebg.gif");
 const divStyle = {
     width: '100%',
-    height: '800px',
+    height: '825px',
     backgroundImage: `url(${resumeBg})`,
-    backgroundSize: 'cover' 
+    backgroundSize: 'cover'
 };
 
 export default function Resume() {
     return (
         <div className='Resume' style={divStyle}>
-            <h1>Resume</h1>
-            <p>
-                Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-                Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-                mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-                lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-                imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-                in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-            </p>
+            <div className='row justify-content-center'>
+                <div className='col'>
+                    <h1 style={{
+                        textAlign: "center",
+                        color: "rgba(35,55,118,255)",
+                        paddingTop: "25px"
+                    }}>Resume</h1>
+                    
+                    <div style={{
+                        textAlign: "center",
+                    }}>
+                    <a href="https://github.com/jwputah">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/open-resume.png" alt="Resume" className="icon" />
+                            </a>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

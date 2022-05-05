@@ -39,23 +39,25 @@ code {
   overflow: hidden;
   text-align: center;
   background-color: var(--white);
-}  
+}
 
 .card .img-container img {
   width: 100%;
   background-color: var(--white);
 }
 
-.card-title{
+.card-title {
   margin-top: 5px;
   color: var(--eerie-black);
-}   
+}
 
 .card .tools {
   text-align: center;
   color: var(--eerie-black);
   border-top: 5em;
 }
+
+
 
 
 
