@@ -16,17 +16,17 @@ export default function PortfolioContainer() {
       return <About />;
     }
     if (currentPage === 'Projects') {
-        return <Projects />;
-      }
-      if (currentPage === 'Home') {
-        return <Home />;
-      }
-      if (currentPage === 'Resume') {
-        return <Resume />;
-      }
-      if (currentPage === 'Contact') {
-        return <Contact />;
-      }
+      return <Projects />;
+    }
+    if (currentPage === 'Home') {
+      return <Home />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
     return <Contact />;
   };
 
@@ -34,11 +34,19 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      {/* We are passing the currentPage from state and the function to update it */}
-      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* Here we are calling the renderPage method which will return a component  */}
-      {renderPage()}
-      <Footer currentPage={currentPage} handlePageChange={handlePageChange} />
+      <div>
+        {/* We are passing the currentPage from state and the function to update it */}
+        <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      </div>
+
+      <div>
+        {/* Here we are calling the renderPage method which will return a component  */}
+        {renderPage()}
+      </div>
+
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }

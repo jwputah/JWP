@@ -4,9 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function Footer() {
     return (
         <footer>
-            <div class="container">
-                <div class="row justify-content-start">
-                    <div class="col">
+            <div className="container">
+                <div className="row justify-content-end">
+                    <div className="col">
                         <h1 style={{
                         textAlign: "left"
                         }}>
@@ -16,14 +16,14 @@ function Footer() {
                         </h1>
                     </div>
 
-                    <div class="col">
+                    <div className="col">
                         <h1 style={{
-                        color: "green",
+                        color: "rgba(35,55,118,255)",
                         textAlign: "center"
                         }}>Joshua W Pace</h1>
                     </div>
 
-                    <div class="col">
+                    <div className="col">
                         <h1 style={{
                         textAlign: "right"
                         }}>

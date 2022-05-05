@@ -1,8 +1,16 @@
 import React from 'react';
 
+const homeBg = require("../../../src/assets/images/homebg.jpg");
+const divStyle = {
+    width: '100%',
+    height: '800px',
+    backgroundImage: `url(${homeBg})`,
+    backgroundSize: 'cover' 
+};
+
 export default function Home() {
     return (
-        <div>
+        <div className='Home' style={divStyle}>
             <h1>Home Page</h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque

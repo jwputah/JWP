@@ -1,8 +1,16 @@
 import React from 'react';
 
+const resumeBg = require("../../../src/assets/images/resumebg.jpg");
+const divStyle = {
+    width: '100%',
+    height: '800px',
+    backgroundImage: `url(${resumeBg})`,
+    backgroundSize: 'cover' 
+};
+
 export default function Resume() {
     return (
-        <div>
+        <div className='Resume' style={divStyle}>
             <h1>Resume</h1>
             <p>
                 Nunc pharetra finibus est at efficitur. Praesent sed congue diam.

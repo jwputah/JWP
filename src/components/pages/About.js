@@ -1,8 +1,16 @@
 import React from 'react';
 
+const aboutBg = require("../../../src/assets/images/aboutbg.jpg");
+const divStyle = {
+    width: '100%',
+    height: '800px',
+    backgroundImage: `url(${aboutBg})`,
+    backgroundSize: 'cover' 
+};
+
 export default function About() {
     return (
-        <div>
+        <div className='About' style={divStyle} >
             <h1>About Page</h1>
             <p>
                 Nunc pharetra finibus est at efficitur. Praesent sed congue diam.

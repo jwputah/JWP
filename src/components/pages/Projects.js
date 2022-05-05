@@ -1,8 +1,15 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import projectList from '../../projectList.json'
-import ProjectCards from '../../components/cards/index'
+import projectList from '../../projectList.json';
+import ProjectCards from '../../components/cards/index';
 
+const projectBg = require("../../../src/assets/images/projectbg.jpg");
+const divStyle = {
+    width: '100%',
+    height: '2000px',
+    backgroundImage: `url(${projectBg})`,
+    backgroundSize: 'cover' 
+};
 
 function Wrapper(props) {
     return <div className="wrapper">{props.children}</div>;
@@ -11,7 +18,7 @@ function Wrapper(props) {
 function Projects() {
 
     return (
-        <section className="container">
+        <section className="Project" style={divStyle}>
             <div className="project">
                 <h2 className="top-title">My Projects!</h2>
                 <hr></hr>

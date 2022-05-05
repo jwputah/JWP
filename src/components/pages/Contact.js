@@ -4,6 +4,14 @@ import '../../assets/css/contact.css';
 // Here we import a helper function that will check if the email is valid
 import { checkPassword, validateEmail } from '../../utils/helpers';
 
+const contactBg = require("../../../src/assets/airplane.gif");
+const divStyle = {
+    width: '100%',
+    height: '800px',
+    backgroundImage: `url(${contactBg})`,
+    backgroundSize: 'cover' 
+};
+
 function Form() {
     // Create state variables for the fields in the form
     // We are also setting their initial values to an empty string
@@ -54,38 +62,41 @@ function Form() {
     };
 
     return (
-        <div>
-            <p>Hello {userName}</p>
-            <form className="form">
-                <input
-                    value={email}
-                    name="email"
-                    onChange={handleInputChange}
-                    type="email"
-                    placeholder="email"
-                />
-                <input
-                    value={userName}
-                    name="userName"
-                    onChange={handleInputChange}
-                    type="text"
-                    placeholder="username"
-                />
-                <input
-                    value={password}
-                    name="password"
-                    onChange={handleInputChange}
-                    type="password"
-                    placeholder="Password"
-                />
-                <button type="button" onClick={handleFormSubmit}>Submit</button>
-            </form>
-            {errorMessage && (
-                <div>
-                    <p className="error-text">{errorMessage}</p>
-                </div>
-            )}
+        <div style={divStyle}>
+            <div className='Contact'>
+                <p>Hello {userName}</p>
+                <form className="form">
+                    <input
+                        value={email}
+                        name="email"
+                        onChange={handleInputChange}
+                        type="email"
+                        placeholder="email"
+                    />
+                    <input
+                        value={userName}
+                        name="userName"
+                        onChange={handleInputChange}
+                        type="text"
+                        placeholder="username"
+                    />
+                    <input
+                        value={password}
+                        name="password"
+                        onChange={handleInputChange}
+                        type="password"
+                        placeholder="Password"
+                    />
+                    <button type="button" onClick={handleFormSubmit}>Submit</button>
+                </form>
+                {errorMessage && (
+                    <div>
+                        <p className="error-text">{errorMessage}</p>
+                    </div>
+                )}
+            </div>
         </div>
+
     );
 }
 
