@@ -4,7 +4,7 @@ import '../../assets/css/contact.css';
 // Here we import a helper function that will check if the email is valid
 import { checkPassword, validateEmail } from '../../utils/helpers';
 
-const contactBg = require("../../../src/assets/airplane.gif");
+const contactBg = require("../../../src/assets/images/airplane.gif");
 const divStyle = {
     width: '100%',
     height: '1000px',

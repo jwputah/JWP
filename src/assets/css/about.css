@@ -1,0 +1,23 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.About {
+    height: 100vh;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutPic {
+    /* height: 100vh; */
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
