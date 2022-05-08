@@ -2,8 +2,9 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import projectList from '../../projectList.json';
 import ProjectCards from '../../components/cards/index';
+import '../../assets/css/projects.css';
 
-const projectBg = require("../../../src/assets/images/projectbg.jpg");
+const projectBg = require("../../../src/assets/images/projectsbg.jpg");
 const divStyle = {
     width: '100%',
     height: '2800px',

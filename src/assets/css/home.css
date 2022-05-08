@@ -1,0 +1,22 @@
+.type h1 {
+    color: white;
+    padding-top: 25px;
+    font-size: 75px;
+}
+
+h2 {
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 25px;
+    font-size: 50px;
+
+}
+
+p {
+    color: white;
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 25px;
+    font-size: 25px;
+}

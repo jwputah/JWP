@@ -1,28 +1,30 @@
 import React from 'react';
+import TypeAnimation from 'react-type-animation';
+import '../../assets/css/home.css';
 
 const homeBg = require("../../../src/assets/images/homebg.jpg");
 const divStyle = {
     width: '100%',
     height: '800px',
     backgroundImage: `url(${homeBg})`,
-    backgroundSize: 'cover' 
+    backgroundSize: 'cover'
 };
 
 export default function Home() {
     return (
         <div className='Home' style={divStyle}>
-            <h1>Home Page</h1>
+            <div className='type' style={{ width: '121em', textAlign: 'center' }}>
+                <TypeAnimation
+                cursor={true}
+                sequence={['Welcome to my Portfolio!', 1500,'Welcome']}
+                wrapper='h1'
+                repeat={2} />
+            </div>
+            <h2>
+                Joshua W Pace
+            </h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-                velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-                ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-                non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-                ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-                rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-                tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-                porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-                vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-                fames ac ante ipsum primis in faucibus.
+                lorem imposum
             </p>
         </div>
     );
