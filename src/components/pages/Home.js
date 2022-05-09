@@ -13,19 +13,24 @@ const divStyle = {
 export default function Home() {
     return (
         <div className='Home' style={divStyle}>
-            <div className='type' style={{ width: '121em', textAlign: 'center' }}>
+            <div className='type' style={{ width: '121em', textAlign: 'center', fontSize:'75px' }}>
                 <TypeAnimation
                 cursor={true}
                 sequence={['Welcome to my Portfolio!', 1500,'Welcome']}
-                wrapper='h1'
-                repeat={2} />
+                wrapper='h2'
+                repeat={1} />
             </div>
             <h2>
-                Joshua W Pace
+                My name is Joshua Pace
             </h2>
             <p>
-                lorem imposum
+                The end is coming near for my coding boot camp. Ready to start my next adventure, aquiring more coding skills and knowledge along the way.
+                The sky is not the limit!
             </p>
+            <p>
+                "... there is no shame in not knowing. The problem arises when irrational thought and attendant behavior fill the vacuum left by ignorance."
+            </p>
+            <p style={{textAlign:'right', fontSize:'20px', marginRight:'20px'}}>- Neil deGrasse Tyson. The Sky Is Not the Limit: Adventures of an Urban Astrophysicist.</p>
         </div>
     );
 }

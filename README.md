@@ -1,4 +1,18 @@
-# Getting Started with Create React App
+# Joshua W Pace Portfolio
+
+![Screenshot](./src/assets/images/Screenshot.jpg)
+
+## Built With
+
+* React.js
+* Bootstrap
+* React-type-animation
+* CSS
+* Node.js
+
+[Deployed Application](https://jwputah.github.io/JWP/)
+
+## Built by Joshua W Pace
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

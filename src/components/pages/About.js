@@ -1,4 +1,5 @@
 import React from 'react';
+import TypeAnimation from 'react-type-animation';
 import '../../assets/css/about.css';
 import photo from '../../../src/assets/images/aboutpic.jpg';
 
@@ -13,18 +14,19 @@ const divStyle = {
 export default function About() {
     return (
         <div style={divStyle} >
-            <div className='About' >
+            <div>
                 <div>
-                    <p>
-                        I have lived in many states over the years since graduating high school in 1996. I started out working as a
-                        horseback wrangler to property management and pretty much everything inbetween.
-                        I recently moved back to my home state of Utah and decided to pursue an education with the U of U web
-                        developer boot camp course. I am super excited about this new adventure and look forward
-                        to becoming a successful web developer one day!
-                    </p>
-                    <div className='aboutPic'>
-                    <img src={photo} style={{borderRadius:'150px', width: '300px'}} alt="Joshua Pace"/>
+                    <div className='About' style={{ width: '100em', textAlign: 'left', color:'white', marginLeft:'50px', paddingTop:'50px'}}>
+                    <TypeAnimation
+                        cursor={false}
+                        sequence={['I have lived in many states and worked in many different fields of employment. From horseback wrangler to property management and pretty much everything in-between. I recently moved back to my home state of Utah and pursuing an education with the U of U web developer boot camp course. I am super excited about this new adventure and look forward to becoming a successful web developer one day!']}
+                        wrapper='h3'
+                        repeat={1} />
                     </div>
+
+                        <div className='aboutPic'>
+                        <img src={photo} style={{borderRadius:'140px', width: '300px', paddingTop:'100px', marginRight:'200px'}} alt="Joshua Pace"/>
+                        </div>
                 </div>
             </div>
         </div>
