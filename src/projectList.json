@@ -12,7 +12,7 @@
         "name": "SQL-Employee-Tracker",
         "image": "https://github.com/jwputah/SQL-Emp-Tracker/raw/main/assets/sqlvideo.gif",
         "github": "https://github.com/jwputah/SQL-Emp-Tracker",
-        "deploy": "https://github.com/jwputah/SQL-Emp-Tracker",
+        "deploy": "https://youtu.be/EVkqmT7cW-s",
         "tools": "SQL, inquirer, console-table, javascript"
     },
     {
@@ -20,7 +20,7 @@
         "name": "Team-Profile-Generator",
         "image": "https://github.com/jwputah/Team-Profile-Generator/raw/main/src/images/samplehtml.png",
         "github": "https://github.com/jwputah/Team-Profile-Generator",
-        "deploy": "https://github.com/jwputah/Team-Profile-Generator/raw/main/src/images/walkthrough.gif",
+        "deploy": "https://youtu.be/kCqj6UYII1A",
         "tools": "node.js, inquirer, jest, javascript "
     },
     {
