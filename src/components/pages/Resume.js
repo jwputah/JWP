@@ -17,7 +17,7 @@ export default function Resume() {
                         textAlign: "center",
                         color: "rgba(35,55,118,255)",
                         paddingTop: "25px"
-                    }}>Resume</h1>
+                    }}>Resume Download</h1>
                     
                     <div style={{
                         textAlign: "center",
