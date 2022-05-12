@@ -1,0 +1,23 @@
+.form {
+    border-radius: 25px;
+    width: 40%;
+    margin-top: 10%;
+    margin-right: 30%;
+    margin-left: 30%;
+    background-color: #293a68
+}
+
+.form input {
+    width:100%;
+    border:1px solid black
+}
+
+.form .text {
+    padding-top: 20px;
+    color:white;
+    text-align: center;
+}
+
+.form .button {
+    text-align: center;
+}
