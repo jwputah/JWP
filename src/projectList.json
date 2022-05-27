@@ -42,8 +42,8 @@
     {
         "id": 6,
         "name": "Stump-Me (Collaborator)",
-        "image": "/",
-        "github": "https://github.com/jwputah/stumped",
+        "image": "https://user-images.githubusercontent.com/94770081/170418499-d01a92af-0453-45a6-8510-78e6523a7372.png",
+        "github": "https://github.com/jwputah/Stump-Me",
         "deploy": "https://gentle-scrubland-60701.herokuapp.com",
         "tools": "MERN full stack,"
     }
