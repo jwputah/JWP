@@ -15,7 +15,7 @@ export default function Resume() {
                 <div className='col'>
                     <h1 style={{
                         textAlign: "center",
-                        color: "#293a68",
+                        color: "rgba(35,55,118,255)",
                         paddingTop: "25px"
                     }}>Resume Download</h1>
                     
