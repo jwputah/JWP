@@ -24,7 +24,7 @@ export default function Home() {
                 My name is Joshua Pace
             </h2>
             <p>
-                The end is coming near for my coding boot camp. Ready to start my next adventure, aquiring more coding skills and knowledge along the way.
+                Recently graduated U of U Coding Bootcamp. Excited to start my next adventure, aquiring more coding skills and knowledge along the way.
                 The sky is not the limit!
             </p>
             <p>
