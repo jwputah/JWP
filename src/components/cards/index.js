@@ -6,21 +6,17 @@ import '../../assets/css/index.css';
 function ProjectCards(props) {
     return (
         <div className="card">
-            <h1 className="card-title">{props.name}</h1>
-                <div className="img-container">
-                <img alt={props.name} src={props.image} />
-                </div>
-
-                    <div className="content" style={{marginTop:'50px'}}>
-                    <p className="proj-icons-container" style={{textAlign:'center'}}>
-                    <a href={props.github}><img className="project-icon" src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub Repo" /></a>
-                    <a href={props.deploy}><img className="project-icon" src="https://img.icons8.com/ios-filled/50/000000/link--v1.png" alt="Live Application" /></a>
-                    </p>
-                    </div>
-
-                <div>
-                <p className="tools">{props.tools}</p>
-                </div>
+                <img className="card-img-top" alt={props.name} src={props.image} />
+            <div className="card-body">
+                <h5 className="card-title">{props.name}</h5>
+            </div>
+                <ul className="list-group list-group-flush">
+                <li className="tools">{props.tools}</li>
+                </ul>
+            <div className="card-body">
+                <a href={props.github}><img className="project-icon" src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub Repo" /></a>
+                <a href={props.deploy}><img className="project-icon" src="https://img.icons8.com/ios-filled/50/000000/link--v1.png" alt="Live Application" /></a>
+            </div>
         </div>
     );
 }
