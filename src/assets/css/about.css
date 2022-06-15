@@ -1,5 +1,18 @@
-.aboutPic {
+.about {
     display: flex;
-    align-items: right;
-    justify-content: right;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.aboutContent {
+    width: 50em;
+    text-align: left;
+    color:white;
+    margin-left: 100px;
+    padding-top: 50px;
+}
+.aboutPic {
+    width: 300px;
+    padding-top: 50px;
+    margin-right: 250px;
 }

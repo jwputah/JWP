@@ -7,7 +7,7 @@ import '../../assets/css/projects.css';
 const projectBg = require("../../../src/assets/images/projectsbg.jpg");
 const divStyle = {
     width: '100%',
-    height: '2800px',
+    height: '1200px',
     backgroundImage: `url(${projectBg})`,
     backgroundSize: 'cover' 
 };
