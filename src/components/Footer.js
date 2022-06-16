@@ -1,45 +1,47 @@
-import React from 'react';
-import "bootstrap/dist/css/bootstrap.min.css";
+import React, { Component } from 'react';
+import { Fab, Action } from 'react-tiny-fab';
+import 'react-tiny-fab/dist/styles.css';
+// import "bootstrap/dist/css/bootstrap.min.css";
 import '../assets/css/footer.css';
 
-function Footer() {
+class Footer extends Component {
+    constructor() {
+        super();
+        this.state = {
+            name: 'Joshua W Pace'
+        };
+    }
+
+    render() {
     return (
         <footer>
+            <Fab
+                position={{ left: 0 }}
+                mainButtonStyles={{ backgroundColor: '#3498db', width: 55, borderRadius: 48 }}
+                // actionButtonStyles={{ backgroundColor: '#3498db', width: 5, borderRadius: 28 }}
+                icon='i'
+                alwaysShowTitle={false}
+                text="Links"
+            >
+                <Action text="Email" onClick={() => window.open('mailto:jwputah7@gmail.com')} >📪</Action>
+                <Action text="Github" onClick={() => window.open('https://github.com/jwputah/')} >👨‍💻</Action>
+                <Action text="LinkedIn" onClick={() => window.open('https://www.linkedin.com/in/joshua-pace-7200aa227?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B3Nv7vwBqSNKKvsm3skxhSg%3D%3D')}
+                >🔗</Action>
+            </Fab>
             <div className="container mw-100">
-                <div className="row justify-content-end">
+                <div className="row justify-content-center">
                     <div className="col">
                         <h1 style={{
-                        textAlign: "left",
-                        marginLeft: '400px'
-                        }}>
-                        <a href="https://github.com/jwputah">
-                        <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="Github icon from icons8.com" className="icon" />
-                            </a>
-                        </h1>
-                    </div>
-
-                    <div className="col">
-                        <h1 style={{
-                        color: "white",
-                        textAlign: "center",
-                        textDecoration: "bold"
-                        }}>Joshua W Pace</h1>
-                    </div>
-
-                    <div className="col">
-                        <h1 style={{
-                        textAlign: "right",
-                        marginRight: '400px'
-                        }}>
-                        <a href="mailto:jwputah7@gmail.com">
-                        <img src="https://img.icons8.com/ios-filled/50/000000/email-sign.png" width="38" alt="Email icon from icons8.com" className="icon" />
-                            </a>
-                        </h1>
+                            color: "white",
+                            textAlign: "center",
+                            textDecoration: "bold"
+                        }}>{this.state.name}</h1>
                     </div>
                 </div>
             </div>
         </footer>
     )
+}
 }
 
 export default Footer;

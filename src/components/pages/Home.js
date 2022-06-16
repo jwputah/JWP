@@ -1,7 +1,7 @@
 import React from 'react';
 import TypeAnimation from 'react-type-animation';
 import '../../assets/css/home.css';
-import { Fab, Action } from 'react-tiny-fab';
+// import { Fab, Action } from 'react-tiny-fab';
 import 'react-tiny-fab/dist/styles.css';
 
 const homeBg = require("../../../src/assets/images/homebg.jpg");
@@ -15,7 +15,7 @@ const divStyle = {
 export default function Home() {
     return (
         <div className='Home' style={divStyle}>
-            <Fab
+            {/* <Fab
                 position={{ left: 0 }}
                 mainButtonStyles={{ backgroundColor: '#3498db', width: 55, borderRadius: 48 }}
                 actionButtonStyles={{ backgroundColor: '#3498db', width: 35, borderRadius: 28 }}
@@ -35,7 +35,7 @@ export default function Home() {
                     text="LinkedIn"
                     onClick={() => window.open('https://www.linkedin.com/in/joshua-pace-7200aa227?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B3Nv7vwBqSNKKvsm3skxhSg%3D%3D')}
                 />
-            </Fab>
+            </Fab> */}
             <div className='type' style={{ width: '121em', fontSize: '75px' }}>
                 <TypeAnimation
                     cursor={true}
