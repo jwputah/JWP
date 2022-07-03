@@ -17,9 +17,9 @@ export default function About() {
                 <div className='about'>
                     <div className='aboutContent'>
                         <h1>
-                        Ambition driven recent full stack coding boot camp graduate. With proficiency in HTML, Javascript, CSS and React, 
-                        combined with years of successful job performance using effective communication within team settings to solve problems. 
-                        Equals “ME” a creative candidate dedicated to learning coding best practices. Helping to make the world a better place with web applications.
+                        Full stack developer from The University of Utah bootcamp, applying tools of the trade CSS, HTML and Javascript. 
+                        Combined with years of successful job performance using effective communication within team settings to solve problems equals “ME”. 
+                        A creative candidate dedicated to coding best practices, aiming for perfection and helping to make the world a better place with web applications.
                         </h1>
                     </div>
                         <div className='aboutPic'>

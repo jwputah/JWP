@@ -10,18 +10,14 @@
     margin-left: 20px;
     padding-top: 25px;
     font-size: 75px;
-
 }
 
 .Home p {
     color: white;
     text-align: left;
     margin-left: 50px;
+    padding: 20px;
     padding-top: 50px;
     font-size: 25px;
 }
 
-.qoute {
-    text-align: right;
-    margin-right: 20px;
-}

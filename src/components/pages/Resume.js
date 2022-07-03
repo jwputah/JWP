@@ -17,12 +17,12 @@ export default function Resume() {
                         textAlign: "center",
                         color: "rgba(35,55,118,255)",
                         paddingTop: "25px"
-                    }}>Resume Download</h1>
+                    }}>Click Here For Resume</h1>
                     
                     <div style={{
                         textAlign: "center",
                     }}>
-                    <a href="https://docs.google.com/document/d/1EyCFNYi5ot-NslHHFD0N1ox_-ATZpWcpNQilnUw8SG4/edit?usp=sharing">
+                    <a href="https://docs.google.com/document/d/1DNCw8EnKCy6zX2FNBht4MkKdMegIeoDuWSWuMklixkM/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
                     <img src="https://img.icons8.com/ios-filled/50/000000/open-resume.png" alt="Resume" className="icon" /></a>
                     </div>
                 </div>

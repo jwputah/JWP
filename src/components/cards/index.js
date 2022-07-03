@@ -14,8 +14,8 @@ function ProjectCards(props) {
                 <li className="tools">{props.tools}</li>
                 </ul>
             <div className="card-body">
-                <a href={props.github}><img className="project-icon" src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub Repo" /></a>
-                <a href={props.deploy}><img className="project-icon" src="https://img.icons8.com/ios-filled/50/000000/link--v1.png" alt="Live Application" /></a>
+                <a href={props.github} target="_blank" rel="noopener noreferrer"><img className="project-icon" src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub Repo" /></a>
+                <a href={props.deploy} target="_blank" rel="noopener noreferrer"><img className="project-icon" src="https://img.icons8.com/ios-filled/50/000000/link--v1.png" alt="Live Application" /></a>
             </div>
         </div>
     );
