@@ -7,7 +7,8 @@
     background-color: rgba(35,55,118,255)
 }
 
-.form input {
+.form input,
+.form textarea {
     width:100%;
     border:1px solid black
 }
