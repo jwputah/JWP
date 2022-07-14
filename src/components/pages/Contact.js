@@ -21,9 +21,9 @@ const Form = () => {
 
     const submit = () => {
         if (name && email && message) {
-            const serviceId = 'REACT_APP_SERVICE_ID';
-            const templateId = 'REACT_APP_TEMPLATE_ID';
-            const userId = 'REACT_APP_USER_ID';
+            const serviceId = 'process.env.REACT_APP_SERVICE_ID';
+            const templateId = 'process.env.REACT_APP_TEMPLATE_ID';
+            const userId = 'process.env.REACT_APP_USER_ID';
             const templateParams = {
                 name,
                 email,
