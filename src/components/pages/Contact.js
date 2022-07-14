@@ -87,7 +87,7 @@ const Form = () => {
         <div style={divStyle}>
             <div className='Contact'>
                 {emailSent ? (
-                    <span>Thank you for your email, I will be in touch as soon as possible!</span>
+                    <div className='messageSent'>Thank you for your email, I will be in touch as soon as possible!</div>
                 ) : (
                     <form className="form">
                     <p className="text">Hello. Please fill out form and submit. Thank You!</p>
