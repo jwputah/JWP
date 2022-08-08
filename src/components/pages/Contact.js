@@ -21,9 +21,9 @@ const Form = () => {
 
     const submit = () => {
         if (name && email && message) {
-            const serviceId = 'process.env.REACT_APP_SERVICE_ID';
-            const templateId = 'process.env.REACT_APP_TEMPLATE_ID';
-            const userId = 'process.env.REACT_APP_USER_ID';
+            const serviceId = process.env.REACT_APP_SERVICE_ID;
+            const templateId = process.env.REACT_APP_TEMPLATE_ID;
+            const userId = process.env.REACT_APP_USER_ID;
             const templateParams = {
                 name,
                 email,
@@ -90,32 +90,32 @@ const Form = () => {
                     <div className='messageSent'>Thank you for your email, I will be in touch as soon as possible!</div>
                 ) : (
                     <form className="form">
-                    <p className="text">Hello. Please fill out form and submit. Thank You!</p>
-                    <input
-                        value={email}
-                        name="email"
-                        onChange={e => setEmail(e.target.value)}
-                        type="email"
-                        placeholder="Email"
-                    />
-                    <input
-                        value={name}
-                        name="name"
-                        onChange={e => setName(e.target.value)}
-                        type="text"
-                        placeholder="Name"
-                    />
-                    <textarea
-                        value={message}
-                        name="message"
-                        onChange={e => setMessage(e.target.value)}
-                        type="text"
-                        placeholder="Message"
-                    />
-                    <div className='button'>
-                        <button type="button" onClick={submit}>Send Email!</button>
-                    </div>
-                </form>
+                        <p className="text">Hello. Please fill out form and submit. Thank You!</p>
+                        <input
+                            value={email}
+                            name="email"
+                            onChange={e => setEmail(e.target.value)}
+                            type="email"
+                            placeholder="Email"
+                        />
+                        <input
+                            value={name}
+                            name="name"
+                            onChange={e => setName(e.target.value)}
+                            type="text"
+                            placeholder="Name"
+                        />
+                        <textarea
+                            value={message}
+                            name="message"
+                            onChange={e => setMessage(e.target.value)}
+                            type="text"
+                            placeholder="Message"
+                        />
+                        <div className='button'>
+                            <button type="button" onClick={submit}>Send Email!</button>
+                        </div>
+                    </form>
                 )}
             </div>
         </div>
