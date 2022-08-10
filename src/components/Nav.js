@@ -8,9 +8,9 @@ import '../assets/css/nav.css';
 function Nav({ currentPage, handlePageChange }) {
 
     return (
-        <Navbar style={{backgroundColor: "#293a68"}}>
-            <ul className="nav nav-tabs">
-                <li className="nav-item">
+        <Navbar style={{ backgroundColor: "#293a68" }}>
+            <div>
+                <div className="topnav">
                     <a
                         href="#home"
                         onClick={() => handlePageChange('Home')}
@@ -20,8 +20,6 @@ function Nav({ currentPage, handlePageChange }) {
                     >
                         Home
                     </a>
-                </li>
-                <li className="nav-item">
                     <a
                         href="#about"
                         onClick={() => handlePageChange('About')}
@@ -30,8 +28,6 @@ function Nav({ currentPage, handlePageChange }) {
                     >
                         About
                     </a>
-                </li>
-                <li className="nav-item">
                     <a
                         href="#projects"
                         onClick={() => handlePageChange('Projects')}
@@ -40,8 +36,6 @@ function Nav({ currentPage, handlePageChange }) {
                     >
                         Projects
                     </a>
-                </li>
-                <li className="nav-item">
                     <a
                         href="#contact"
                         onClick={() => handlePageChange('Contact')}
@@ -50,8 +44,6 @@ function Nav({ currentPage, handlePageChange }) {
                     >
                         Contact
                     </a>
-                </li>
-                <li className="nav-item">
                     <a
                         href="#resume"
                         onClick={() => handlePageChange('Resume')}
@@ -60,8 +52,8 @@ function Nav({ currentPage, handlePageChange }) {
                     >
                         Resume
                     </a>
-                </li>
-            </ul>
+                </div>
+            </div>
         </Navbar>
     );
 }

@@ -4,11 +4,7 @@ import '../../assets/css/contact.css';
 
 const contactBg = require("../../../src/assets/images/airplane.gif");
 const divStyle = {
-    width: '100%',
-    height: '1000px',
     backgroundImage: `url(${contactBg})`,
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover'
 };
 
 const Form = () => {
@@ -84,7 +80,7 @@ const Form = () => {
     // };
 
     return (
-        <div style={divStyle}>
+        <div>
             <div className='Contact'>
                 {emailSent ? (
                     <div className='messageSent'>Thank you for your email, I will be in touch as soon as possible!</div>
@@ -118,6 +114,7 @@ const Form = () => {
                     </form>
                 )}
             </div>
+            <div className='background' style={divStyle}></div>
         </div>
     );
 }

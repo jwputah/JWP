@@ -1,18 +1,17 @@
-.about {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
-}
 .aboutContent {
-    width: 50em;
     text-align: left;
     color:white;
-    margin-left: 100px;
-    padding-top: 50px;
+    padding: 30px;
+    margin: auto;
 }
+
 .aboutPic {
-    width: 300px;
-    padding-top: 50px;
-    margin-right: 250px;
+    padding: 30px;
 }
+
+/* @media screen and (max-width: 600px) {
+    .background {
+        display: none;
+        background-color: #293a68;
+    }
+} */
