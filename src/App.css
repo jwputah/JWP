@@ -12,6 +12,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -21,6 +22,8 @@ html {
   scroll-behavior: smooth;
 }
 
-
-
-
+.stickyBottom {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}

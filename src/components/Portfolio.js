@@ -44,7 +44,7 @@ export default function PortfolioContainer() {
         {renderPage()}
       </div>
 
-      <div>
+      <div className='stickyBottom'>
         <Footer />
       </div>
     </div>

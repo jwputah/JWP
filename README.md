@@ -9,6 +9,7 @@
 * React-type-animation
 * CSS
 * Node.js
+* react-tiny-fab
 
 [Deployed Application](https://jwputah.github.io/JWP/)
 
