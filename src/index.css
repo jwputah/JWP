@@ -7,7 +7,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
 }
@@ -19,44 +20,25 @@ code {
 
 .card {
   background-color: white;
-  border-radius: 5px;
   height: 400px;
   margin: 2rem;
   position: fixed;
   width: 800px;
 }
 
-.card .content {
-  font-size: 25px;
-  background-color: white;
-  text-align: center;
-  border: 5em;
-}
-
-.card .img-container {
-  height: 75%;
-  overflow: hidden;
-  text-align: center;
-  background-color: white;
-}
-
-.card .img-container img {
-  width: 100%;
-  background-color: white;
-}
-
 .card-title {
-  margin-top: 5px;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 10px;
   color: black;
 }
 
 .card .tools {
   text-align: center;
   color: black;
-  border-top: 5em;
+  margin-bottom: 10px;
 }
 
-
-
-
-
+.card .link {
+  display: inline;
+}

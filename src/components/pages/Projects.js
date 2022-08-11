@@ -7,7 +7,7 @@ import '../../assets/css/projects.css';
 const projectBg = require("../../../src/assets/images/projectsbg.jpg");
 const divStyle = {
     width: '100%',
-    height: '1200px',
+    height: '3100px',
     backgroundImage: `url(${projectBg})`,
     backgroundSize: 'cover' 
 };
@@ -22,7 +22,6 @@ function Projects() {
         <section className="Project" style={divStyle}>
             <div className="project">
                 <h2 className="top-title">My Projects!</h2>
-                <hr></hr>
             </div>
 
             <Wrapper id="card-data">
@@ -31,7 +30,6 @@ function Projects() {
                 ))}
             </Wrapper>
         </section>
-
     );
 }
 
