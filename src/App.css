@@ -27,3 +27,9 @@ html {
   position: fixed;
   bottom: 0;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+      background-color: #dddddd;
+  }
+}

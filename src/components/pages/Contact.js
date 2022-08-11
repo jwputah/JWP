@@ -37,7 +37,7 @@ const Form = () => {
         } else {
             alert('Please fill in all fields.');
         }
-
+                // Old form code before using emailjs
         // const handleInputChange = (e) => {
         //     // Getting the value and name of the input which triggered the change
         //     const { target } = e;
