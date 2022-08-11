@@ -2,16 +2,14 @@
     text-align: left;
     color:white;
     padding: 30px;
-    margin: auto;
 }
 
 .aboutPic {
     padding: 30px;
 }
 
-/* @media screen and (max-width: 600px) {
-    .background {
+@media screen and (max-width: 600px) {
+    .aboutPic {
         display: none;
-        background-color: #293a68;
     }
-} */
+}
