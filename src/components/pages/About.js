@@ -4,7 +4,7 @@ import photo from '../../../src/assets/images/aboutpic.jpg';
 
 const aboutBg = require("../../../src/assets/images/aboutbg.jpg");
 const divStyle = {
-    height: '1150px',
+    height: '1200px',
     width: '100%',
     backgroundImage: `url(${aboutBg})`,
     backgroundSize: 'cover'
@@ -12,14 +12,17 @@ const divStyle = {
 
 export default function About() {
     return (
-        <div className='background' style={divStyle} >
+        <div style={divStyle} >
             <div>
-                <div className='about'>
+                <div>
                     <div className='aboutContent'>
                         <h1>
-                        Full stack developer from The University of Utah bootcamp, applying tools of the trade CSS, HTML and Javascript. 
-                        Combined with years of successful job performance using effective communication within team settings to solve problems equals “ME”. 
-                        A creative candidate dedicated to coding best practices, aiming for perfection and helping to make the world a better place with web applications.
+                        Full stack developer with certificate from the University of Utah web developer boot camp. 
+                        I have 100+ hours of experience applying tools of the trade CSS, HTML and JavaScript, 
+                        individually and in teams developing full stack applications. Combined with years of successful 
+                        job performance using effective communication within team settings to solve problems make me 
+                        a valuable asset on any project. A creative candidate dedicated to coding best practices, 
+                        aiming for perfection <br></br>and helping to make the world a better place with web applications.
                         </h1>
                     </div>
                         <div className='aboutPic'>

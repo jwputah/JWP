@@ -1,5 +1,7 @@
 # Joshua W Pace Portfolio
 
+## A personal portfolio with About, Projects, Contact and Resume pages. Including links to Github, LinkedIn and email.
+
 ![Screenshot](./src/assets/images/Screenshot.jpg)
 
 ## Built With
